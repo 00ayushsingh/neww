@@ -1,0 +1,144 @@
+
+.hero-image {
+  background-image: url("https://i.pinimg.com/originals/2e/59/a0/2e59a05d92b5eff99390d4d74ed90d73.jpg");
+  height: 500px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+.hero-text {
+  top: 30%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  margin: 5%;
+  font-weight: bold;
+  color: black;
+}
+
+
+h1 {
+  color: #66BFBF;
+}
+h3 {
+    color: #9AD0EC;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-width: 5px;
+  border-color: grey;
+  }
+  .marauders {
+  border: 5px solid #7A0BC0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .form-center {
+    display:flex;
+      justify-content: center;
+}
+
+
+
+input[type=text], select, textarea{
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+padding: 12px 12px 12px 0;
+display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+background-color: #04AA6D;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+float: right;
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}/* Style the container */
+.container {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+float: left;
+width: 25%;
+margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+float: left;
+width: 75%;
+margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.col-25, .col-75, input[type=submit] {
+width: 100%;
+margin-top: 0;
+}
+}
+col-25 {
+float: left;
+width: 25%;
+margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+float: left;
+width: 75%;
+margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.mrow:after {
+content: "";
+display: table;
+clear: both;
+}
